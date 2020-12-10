@@ -1,0 +1,153 @@
+body
+{
+	font-family: Helvetica, Codec Cold, sans-serif;
+ 	font-size: 14px;
+ 	color: #000;
+ 	  /*http://www.heropatterns.com/*/
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23acacac' fill-opacity='0.54'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.hidden
+{
+	display: none;
+}
+
+.container
+{
+	width: 980px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+.mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.mainNav ul
+{
+	font-weight: bold;
+	padding: 0;
+	margin-top: 60px;
+}
+
+.mainNav ul li
+{
+	font-size: 14px;
+	display: inline;
+	margin-left: 100px;
+}
+
+.mainNav ul li a
+{
+	text-decoration: none;
+	color: #2073a8;
+	padding: 0px;
+	margin-right: 10px;
+}
+
+.mainNav ul li a:hover
+{
+	background-color: #6cccde;
+	color: #000
+}
+
+#blueRect
+{
+	height: 10px;
+	width: 980px;
+	color: #0078ff;
+}
+
+#box1
+{
+	margin-top: 10px;
+	height: 10px;
+	width: 980px;
+	background-color: #0078ff;
+}
+
+.welcoming h2
+{
+	text-align: center;
+	font-size: 30px;
+	color: #0078ff;
+	margin-bottom: 20px;
+	width: 980px;
+	padding: 10px 0px 0px 10px;
+}
+
+.welcoming h3
+{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.photos
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.picture1, .picture2, .picture3
+{
+	width: 300px;
+}
+
+.picture1 img
+{
+	border-radius: 5px;
+	height: 250px;
+	width: 250px;
+}
+
+.picture2 img
+{
+	border-radius: 5px;
+	height: 250px;
+	width: 250px;
+}
+
+.picture3 img
+{
+	border-radius: 5px;
+	height: 250px;
+	width: 250px;
+}
+
+.overview p
+{
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.customProject h2
+{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.orangePen img 
+{
+	height: 250px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.customProject button
+{
+	background-color: #0078ff;  
+	width: 100px;
+	height: 34px;
+    margin: 0 auto;
+    margin-right: 10px;
+}
