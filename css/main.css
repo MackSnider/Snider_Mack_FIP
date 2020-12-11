@@ -22,6 +22,8 @@ a:visited {
 	width: 980px;
 	margin: 0 auto;
 	background-color: #ffffff;
+	position: relative;
+    overflow: hidden;
 }
 
 .mainHeader
@@ -321,32 +323,30 @@ input, textarea
 .penProjects
 {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	align-items: center;
+	flex-direction: column;
 }
 
-.brassDragon img
+.brassDragon img, .leverAction img, .pCat img, .musicPen img
 {
+	border-radius: 5px;
 	height: 200px;
 	width: 200px;
+	margin-left: 150px;
 }
 
-.leverAction img
+.brassDragon, .leverAction, .pCat, .musicPen
 {
-	height: 200px;
-	width: 200px;
+	width: 500px;
+	margin-bottom: 100px;
+	margin-left: 25px;
 }
 
-.pCat img
+.brassDragon p, .leverAction p, .pCat p, .musicPen p
 {
-	height: 200px;
-	width: 200px;
-}
-
-.musicPen img
-{
-	height: 200px;
-	width: 200px;
+	text-align: center;
+	width: 500px;
+	line-height: 22px;
+	font-size: 15px;
 }
