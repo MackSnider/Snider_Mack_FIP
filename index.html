@@ -65,7 +65,7 @@
 				</div>
 			</section>
 
-			<main class="items">
+			<div class="items">
 			<section class="orangePen">
 				<h2 class="hidden">Orange Pen</h2>
 					<img src="images/pen.jpg" alt="Orange pen" height="500" width="500">
@@ -95,21 +95,31 @@
 					consequat.</p>
 					<a href="products.html" class="woodBut">Learn More</a>
 			</section>
-			</main>
+			</div>
 
-			<h3>Sign up for News, Deals, and Much More</h3>
-			<form action="form.php" method="post">
-				<label for="email">Email (required)</label>
+			<section class="midBanner">
+				<img src="images/banner_wood.png" alt="banner" height="150" width="700">
+			</section>
+
+			<section class="email">
+				<h3>Sign up for News, Deals, and Much More</h3>
+			</section>
+			<section class="emailForm">
+			<form id="emailPrint" action="form.php" method="post">
+				<label for="email" class="hidden">Email (required)</label>
 				<input type="text" required id="email" placeholder="Enter your Email">
 
-				<button type="submit">Submit</button>
+				<input id="submit" type="submit" value="Submit">
 				
 			</form>
-			
-			<footer>
-				<div>
-					<img src="images/logo.png" alt="Snider's Woodshop" height="112" width="200">
-				<nav>
+			</section>
+				
+				<footer class="mainFooter">
+				<div class="logoNav">
+					<div class="footerLogo">
+						<img src="images/logo.png" alt="Snider's Woodshop" height="112" width="200">
+					</div>
+				<!--<nav class="footerNav">
 					<h2 class="hidden">Bottom Navigation</h2>
 						<ul>
 							<li><a href="index.html">HOME</a></li>
@@ -117,7 +127,7 @@
 							<li><a href="about.html">ABOUT</a></li>
 							<li><a href="contact.html">CONTACT</a></li>
 						</ul>
-					</nav>
+					</nav> -->
 				</div>
 				<section>
 				<h2 class="hidden">Social Media</h2>
