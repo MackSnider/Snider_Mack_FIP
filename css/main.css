@@ -74,7 +74,7 @@ a:visited {
 	background-color: #0078ff;
 }
 
-.welcoming h2
+.welcoming h2, .products h2
 {
 	text-align: center;
 	font-size: 30px;
@@ -242,8 +242,6 @@ a:visited {
 input, textarea
 {
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
 	width: 300px;
 	height: 10px;
 	padding: 10px;
@@ -284,20 +282,71 @@ input, textarea
 	background: url(../images/gradient.png);
 }
 
-.logoNav
+.footerLogo
 {
-
+	margin-top: 15px;
+	margin-left: 0 auto;
 }
 
-.footerLogo img
+.footerNav ul
 {
-
+	font-weight: bold;
+	padding: 15;
+	margin-top: 5px;
 }
 
-#facebook
+.footerNav ul li
 {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	margin-left: auto;
+	font-size: 14px;
+	display: inline;
+	margin-left: 100px;
+}
+
+.footerNav ul li a
+{
+	text-decoration: none;
+	color: #2073a8;
+	padding: 0px;
+	margin-right: 50px;
+}
+
+.footerNav ul li a:hover
+{
+	background-color: #6cccde;
+	color: #000
+}
+
+/* products */
+
+.penProjects
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.brassDragon img
+{
+	height: 200px;
+	width: 200px;
+}
+
+.leverAction img
+{
+	height: 200px;
+	width: 200px;
+}
+
+.pCat img
+{
+	height: 200px;
+	width: 200px;
+}
+
+.musicPen img
+{
+	height: 200px;
+	width: 200px;
 }
