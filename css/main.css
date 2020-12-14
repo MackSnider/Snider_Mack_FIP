@@ -76,12 +76,12 @@ a:visited {
 	background-color: #0078ff;
 }
 
-.welcoming h2, .products h2
+.welcoming h2, .products h2, .galleryText h2
 {
 	text-align: center;
 	font-size: 30px;
 	color: #0078ff;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	width: 980px;
 	padding: 10px 0px 0px 10px;
 }
@@ -365,4 +365,41 @@ input, textarea
 {
 	background-color: #00336c;
 	color: #fff;
+}
+
+.gallery
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: 30px;
+}
+
+.lightPink img, .redPen img, .shotgunPen img, .bulletPen img, .shotgunPen2 img, .yellowPen img
+{
+	border-radius: 5px;
+	height: 300px;
+	width: 300px;
+}
+
+.galleryBanner
+{
+	margin-bottom: 30px;
+}
+
+.galleryBanner img
+{
+	border-radius: 5px;
+}
+
+.gallery2
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: 30px;
 }
