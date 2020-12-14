@@ -1,6 +1,6 @@
 body
 {
-	font-family: Helvetica, Codec Cold, sans-serif;
+	font-family: Open Sans, Codec Cold, sans-serif;
  	font-size: 14px;
  	color: #000;
  	  /*http://www.heropatterns.com/*/
@@ -76,7 +76,7 @@ a:visited {
 	background-color: #0078ff;
 }
 
-.welcoming h2, .products h2, .galleryText h2, .richSnider h2
+.welcoming h2, .products h2, .galleryText h2, .richSnider h2, .contactUs h2
 {
 	text-align: center;
 	font-size: 30px;
@@ -429,5 +429,51 @@ input, textarea
 	margin-top: 20px;
 	font-size: 15px;
 	margin-left: 100px;
+}
 
+.woodTurn 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.contactText
+{
+	margin-bottom: 45px;
+}
+
+.contactText p
+{
+	text-align: center;
+	width: 800px;
+	margin-top: 20px;
+	font-size: 15px;
+	margin-left: 100px;
+}
+
+.form1
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+#comments
+{
+	height: 150px;
+	width: 300px;
+}
+
+.formName, .formEmail, .formTopic, .formComments, .formHuman
+{
+	margin-bottom: 25px;
+}
+
+.formComments h2
+{
+	margin-left: 115px;
 }

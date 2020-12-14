@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -7,11 +7,12 @@
 	</head>
 	<body>
 		<h1 class="hidden">Snider's Woodshop</h1>
-		<!-- Content Goes Here -->
-		<div id="container">
-			<header>
-				<img src="images/Logo.png" alt="Sniders Woodshop" height="112" width="200">
-				<nav>
+		<div class="container">
+			<header class="mainHeader">
+				<div class="logoHeader">
+				<img src="images/Logo.png" alt="Sniders Woodshop" height="121" width="237">
+				</div>
+				<nav class="mainNav">
 					<h2 class="hidden">Main Navigation</h2>
 					<ul>
 						<li><a href="index.html">HOME</a></li>
@@ -21,46 +22,63 @@
 					</ul>
 				</nav>
 			</header>
+			<div id="box1"></div>
 
-			<section>
-			<h2  class="hidden">Snider's Woodshop</h2>
+			<section class="woodTurn">
+				<h2 class="hidden">wood turning</h2>
+				<img class="WoodTurnings" src="images/banner_wood_2.png" alt="wood turning" height="175" width="900">
 			</section>
-				<section>
+
+			<div id="box1"></div>
+
+				<section class="contactUs">
 					<h2>Contact</h2>
 				</section>
-				<section>
+
+				<section class="contactText">
 					<h2 class="hidden">Form for Contact Info</h2>
 					<p>Please consider contacting me if you have any questions, comments or inquiries.</p>
 				</section>
 			
-			<section>
+			<section class="form1">
 			<h2 class="hidden">Contact Form</h2>
 				<form action="form.php" method="post">
+					<div class="formName">
 					<label for="name" class="hidden">Name: (required)</label>
 					<input type="text" required id="name" placeholder="Enter your Full Name">
+					</div>
 
+					<div class="formEmail">
 					<label for="email" class="hidden">Email: (Required)</label>
 					<input type="text" required id="email" placeholder="Enter your Email">
+					</div>
 
+					<div class="formTopic">
 					<label for="topic" class="hidden">Topic</label>
 					<input type="text" required id="topic" placeholder="Topic">
+					</div>
 
+					<div class="formComments">
+						<h2>Comments</h2>
 					<label for="comments" class="hidden">Comment Box</label>
-					<input type="text" required id="comments" placeholder="What's on your mind?">
+					<textarea name="comments" id="comments" required cols="20" rows="2"></textarea>
+					</div>
 
+					<div class="formHuman">
 					<label for="human" class="hidden">What is 1 + 3?</label>
 					<input type="text" required id="human" placeholder="What is 1 + 3?"> 
+					</div>
 
-					<button type="submit">Submit</button>
+					<input id="submit" type="submit" value="Submit">
 				</form>
-
-
-
 			</section>
-			<footer>
-				<div>
+
+			<footer class="mainFooter">
+				<div class="logoNav">
+					<div class="footerLogo">
 					<img src="images/logo.png" alt="Snider's Woodshop" height="112" width="200">
-				<nav>
+				</div>
+				<!-- <nav>
 					<h2 class="hidden">Bottom Navigation</h2>
 						<ul>
 							<li><a href="index.html">HOME</a></li>
@@ -72,7 +90,7 @@
 				</div>
 				<section>
 				<h2 class="hidden">Social Media</h2>
-				<!-- More Social Media Platforms Coming -->
+				 More Social Media Platforms Coming
 				<ul>
 					<li>
 						<a href="https://www.facebook.com/sniderwoodshop/?ref=page_internal" target="_blank">
@@ -80,7 +98,7 @@
 						</a>
 					</li>
 				</ul>
-			</section>
+			</section> -->
 			</footer>
 		</div>
 	</body>
